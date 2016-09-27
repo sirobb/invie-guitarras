@@ -1,0 +1,263 @@
+/**{
+	
+	padding: 10px; 
+	border:2px solid red;
+	margin: 10px;
+}*/
+
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}	
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 20px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+table,td,th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input,textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.background{
+	background-image: url("../images/background.png");
+	background-size: cover;
+}
+
+.button{
+	border-radius: 12px;
+	border: none;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+50,ff7c00+51,ff7f04+100;Orange+Gloss */
+	/*background: #ffb76b;*/ /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); 
+	background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); 
+	background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );*/
+	background: #fd324e;
+	background: linear-gradient(to left,#fe344e,#ff7250)
+
+
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+}
+
+.titulo{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0;
+	line-height: 40px;
+	margin-top: 70px;
+}
+.titulo span{
+	text-decoration: underline;
+}
+
+.title-a{
+	font-size: 24px;
+	height: 300px;
+	border: 5px;
+	margin-top: 0;
+	border-top: 10px;
+}
+
+.guitarras{
+	color: #1f313c;
+	margin-bottom: 60px;
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.portada{	
+	color: white;
+	padding: 20px;
+	height: 550px;
+}
+
+.portada button{
+	margin-bottom: 70px;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.guitarra{
+	border: 1px solid #1f313c;
+	margin: 10px 10px 40px 10px;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.guitarra.b{
+	height: 190px;
+}
+
+.right {
+	float: right;
+	position: relative;
+	top: -127px;
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 90px;
+}
+
+.header{
+	position: relative;
+}
+
+.footer{
+	background: #273b47;
+	justify-content: space-between;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+.contacto img{
+	display: block;
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.formulario{
+	color: white;
+	display: flex;
+	width: 400px;
+	padding: 40px 10px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col1 ,.col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px; 
+}
+
+.col1{
+	align-items: flex-start;
+}
+
+.col2.button{
+	margin-top: 15px;
+
+}
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label , .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+
+.menu li:before{
+	content: "º";
+	font-size: 50px;
+	line-height: 20px;
+	color: blue;
+}
+.tabla{
+	margin: 50px 0;
+}
